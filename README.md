@@ -31,11 +31,13 @@ Goals for Version 2: ability to choose between attaching all Files or the first 
 Any contributions to Version 2 goals are welcome.  To get started:
 
 ```shell
-git clone https://github.com/TinderBox/pro-serv.git
-cd Apex/Add Salesforce Files
+git clone https://github.com/christophershelor/Salesforce-Files-and-Collaborate.git
 ```
-Add the trigger, class, and test class to your Salesforce environment
+Add the trigger, class, and test class to your Salesforce dev environment.
 
+When pushing a change set from sandbox to production:
+1. Include the class, test class, trigger, custom metadata type, and the two custom fields created on the metadata type 
+2. Create the remote site and custom metadata record before creating any documents
 
 ## Features
 
@@ -49,4 +51,4 @@ Add the trigger, class, and test class to your Salesforce environment
 ## Contributing
 
 If you'd like to contribute, please fork the repository and use a feature
-branch. Pull requests are warmly welcome.
+branch. Pull requests are warmly welcomed.
